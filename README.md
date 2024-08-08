@@ -67,6 +67,7 @@ This GitHub repository includes:
 - **Jupyter Notebooks:** Implementation of ARIMA, Prophet, and Neural Prophet models for each cryptocurrency.
 - **Power BI Dashboard File:** The `.pbix` file for the Power BI dashboard.
 - **Project Report:** Our detailed project report is provided in both PDF and Word formats.
+- **Datasets:** CSV files for Bitcoin (BTC), Ethereum (ETH), and Solana (SOL).
 
 ## How to Use
 
@@ -77,15 +78,15 @@ This GitHub repository includes:
     cd PricePredictionForCryptoCurrency
 
 3. **Install Necessary Packages:**
-    pip install numpy
-    pip install pandas
-    pip install matplotlib
-    pip install yfinance
-    pip install statsmodels
-    pip install pmdarima
-    pip install prophet
-    pip install neuralprophet
-    pip install streamlit
+    - pip install numpy
+    - pip install pandas
+    - pip install matplotlib
+    - pip install yfinance
+    - pip install statsmodels
+    - pip install pmdarima
+    - pip install prophet
+    - pip install neuralprophet
+    - pip install streamlit
 
 4. **Run the Web App:**
     streamlit run app.py
